@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News-Homepage</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <!--navbar-->
+    <nav class="navbar">
+      <div class="nav-center">
+        <!--nav-header-->
+        <div class="nav-header">
+          <img src="./assets/images/logo.svg" alt="nav-logo" class="nav-logo" />
+          <button type="button" class="nav-toggle" id="nav-toggle">
+            <img
+              src="./assets/images/icon-menu.svg"
+              alt="toggle-logo"
+              class="toggle-logo"
+            />
+          </button>
+        </div>
+        <!--end of nav-header-->
+        <!--nav-links-->
+        <ul class="nav-links" id="nav-links">
+          <li>
+            <a href="#home" class="nav-link scroll-link">Home</a>
+          </li>
+          <li>
+            <a href="#news" class="nav-link scroll-link">New</a>
+          </li>
+          <li>
+            <a href="#trending" class="nav-link scroll-link">Popular</a>
+          </li>
+          <li>
+            <a href="#trending" class="nav-link scroll-link">Trending</a>
+          </li>
+          <li>
+            <a href="#trending" class="nav-link scroll-link">Categories</a>
+          </li>
+        </ul>
+        <!--end of nav-links-->
+      </div>
+    </nav>
+    <!--end of navbar-->
+    <aside class="side-bar" id="side-bar">
+      <button class="close-btn" id="close-btn">
+        <img
+          src="./assets/images/icon-menu-close.svg"
+          alt=""
+          class="close-logo"
+        />
+      </button>
+      <!--nav-links-->
+      <ul class="sidebar-links" id="sidebar-links">
+        <li>
+          <a href="#header" class="side-link scroll-link">Home</a>
+        </li>
+        <li>
+          <a href="#news" class="side-link scroll-link">New</a>
+        </li>
+        <li>
+          <a href="#trendings" class="side-link scroll-link">Popular</a>
+        </li>
+        <li>
+          <a href="#trendings" class="side-link scroll-link">Trending</a>
+        </li>
+        <li>
+          <a href="#trendings" class="side-link scroll-link">Categories</a>
+        </li>
+      </ul>
+      <!--end of nav-links-->
+    </aside>
+    <!--header-->
+    <section id="hero">
+      <header class="header" id="header">
+        <picture>
+          <source
+            media="(min-width: 765px)"
+            srcset="./assets/images/image-web-3-desktop.jpg"
+          />
+          <img
+            class="hero-image"
+            src="./assets/images/image-web-3-mobile.jpg"
+            alt="hero-image"
+          />
+        </picture>
+        <div class="hero-about-container">
+          <h1 class="hero-title">
+            The Bright <br />
+            Future of Web <br />
+            3.0?
+          </h1>
+          <div class="hero-details">
+            <p class="summary">
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people. But is
+              it really fulfilling its promise?
+            </p>
+            <button type="button" class="read-more">Read More</button>
+          </div>
+        </div>
+      </header>
+      <section class="news-container" id="news">
+        <div class="news">
+          <h1 class="news-header">New</h1>
+          <div class="single-news">
+            <span class="news-title">Hydrogen VS Electric Cars</span>
+            <p class="news-details">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+          </div>
+          <div class="underline"></div>
+          <div class="single-news">
+            <span class="news-title">The Downsides of AI Artistry</span>
+            <p class="news-details">
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </div>
+          <div class="underline"></div>
+          <div class="single-news">
+            <span class="news-title">Is VC Funding Drying Up?</span>
+            <p class="news-details">
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!--end of header-->
+    <!--trending-->
+    <section class="trendings" id="trendings">
+      <div class="trending-container">
+        <div class="trending">
+          <img src="./assets/images/image-retro-pcs.jpg" alt="" class="trending-image">
+          <div class="trending-details">
+            <span class="trending-rank">01</span>
+            <h2 class="trending-header">Reviving Retro PCs</h2>
+            <p class="trending-summary">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
+        </div>
+        <div class="trending">
+          <img
+            src="./assets/images/image-top-laptops.jpg"
+            alt=""
+            class="trending-image"
+          />
+          <div class="trending-details">
+            <span class="trending-rank">02</span>
+            <h2 class="trending-header">Top 10 Laptops of 2022</h2>
+            <p class="trending-summary">
+              Our best picks for various needs and budgets.
+            </p>
+          </div>
+        </div>
+        <div class="trending">
+          <img
+            src="./assets/images/image-gaming-growth.jpg"
+            alt=""
+            class="trending-image"
+          />
+          <div class="trending-details">
+            <span class="trending-rank">03</span>
+            <h2 class="trending-header">The Growth of Gaming</h2>
+            <p class="trending-summary">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end of trending-->
+    <script src="./app.js"></script>
+  </body>
+</html>
