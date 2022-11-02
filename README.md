@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/AkashSoren1234/news_homepage](https://github.com/AkashSoren1234/news_homepage)
+- Live Site URL: [https://akashsoren1234.github.io/news_homepage/](https://akashsoren1234.github.io/news_homepage/)
 
 ## My process
 
@@ -54,5 +54,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@AkashSoren1234](https://www.frontendmentor.io/profile/AkashSoren1234)
 
